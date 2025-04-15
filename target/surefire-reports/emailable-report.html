@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">18</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">659,331</td><td>smoke</td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testCases.FormPageTest</td><td><a href="#m0">femaleGenderTest</a></td><td rowspan="1">1744634969890</td><td rowspan="1">4394</td></tr><tr class="failedeven"><td><a href="#m1">verifyAppTitle</a></td><td rowspan="1">1744634987517</td><td rowspan="1">1785</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">testCases.CartPageTest</td><td><a href="#m2">backButtonVerification</a></td><td rowspan="1">1744634652961</td><td rowspan="1">18033</td></tr><tr class="passedeven"><td><a href="#m3">isCartVisible</a></td><td rowspan="1">1744634687674</td><td rowspan="1">17086</td></tr><tr class="passedeven"><td><a href="#m4">productAmountVerification</a></td><td rowspan="1">1744634720566</td><td rowspan="1">17114</td></tr><tr class="passedeven"><td><a href="#m5">productInCart</a></td><td rowspan="1">1744634753474</td><td rowspan="1">17355</td></tr><tr class="passedeven"><td><a href="#m6">productPriceSumVerification</a></td><td rowspan="1">1744634784964</td><td rowspan="1">17638</td></tr><tr class="passedeven"><td><a href="#m7">termsAndConditions</a></td><td rowspan="1">1744634816821</td><td rowspan="1">23264</td></tr><tr class="passedeven"><td><a href="#m8">webViewVerification</a></td><td rowspan="1">1744634854450</td><td rowspan="1">22108</td></tr><tr class="passedodd"><td rowspan="3">testCases.FormPageTest</td><td><a href="#m9">FillForm</a></td><td rowspan="1">1744634892512</td><td rowspan="1">35290</td></tr><tr class="passedodd"><td><a href="#m10">emptyNameFillForm</a></td><td rowspan="1">1744634943253</td><td rowspan="1">12238</td></tr><tr class="passedodd"><td><a href="#m11">verifySubmitButtonEnable</a></td><td rowspan="1">1744635004442</td><td rowspan="1">4468</td></tr><tr class="passedeven"><td rowspan="8">testCases.ProductPageTest</td><td><a href="#m12">backButtonEnable</a></td><td rowspan="1">1744635023269</td><td rowspan="1">16314</td></tr><tr class="passedeven"><td><a href="#m13">counterTextValidation</a></td><td rowspan="1">1744635054366</td><td rowspan="1">15861</td></tr><tr class="passedeven"><td><a href="#m14">goToCartWithoutAddingProducts</a></td><td rowspan="1">1744635083401</td><td rowspan="1">17801</td></tr><tr class="passedeven"><td><a href="#m15">isProductCostVisible</a></td><td rowspan="1">1744635116268</td><td rowspan="1">15127</td></tr><tr class="passedeven"><td><a href="#m16">isProductIconVisible</a></td><td rowspan="1">1744635146781</td><td rowspan="1">15830</td></tr><tr class="passedeven"><td><a href="#m17">isProductNameVisible</a></td><td rowspan="1">1744635177919</td><td rowspan="1">14956</td></tr><tr class="passedeven"><td><a href="#m18">isProductVisibleInCart</a></td><td rowspan="1">1744635208421</td><td rowspan="1">16864</td></tr><tr class="passedeven"><td><a href="#m19">scrollAndAddProductIntoCart</a></td><td rowspan="1">1744635241801</td><td rowspan="1">20962</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testCases.FormPageTest#femaleGenderTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at io.appium.java_client.pagefactory.ElementInterceptor.getObject(ElementInterceptor.java:42)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:79)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$7qSzMuHk.sendKeys(Unknown Source)
+	at AppiumFramework.pageObjects.android.FormPage.setNameField(FormPage.java:46)
+	at testCases.FormPageTest.femaleGenderTest(FormPageTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.FormPageTest#verifyAppTitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/toolbar_title})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:166)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:75)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$7qSzMuHk.getText(Unknown Source)
+	at AppiumFramework.pageObjects.android.FormPage.getAppTitle(FormPage.java:75)
+	at testCases.FormPageTest.verifyAppTitle(FormPageTest.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3ea9a091 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	... 35 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({AppiumBy.id: com.androidsample.generalstore:id/toolbar_title})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:54)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 37 more
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.CartPageTest#backButtonVerification</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.CartPageTest#isCartVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.CartPageTest#productAmountVerification</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.CartPageTest#productInCart</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.CartPageTest#productPriceSumVerification</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testCases.CartPageTest#termsAndConditions</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testCases.CartPageTest#webViewVerification</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testCases.FormPageTest#FillForm</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testCases.FormPageTest#emptyNameFillForm</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testCases.FormPageTest#verifySubmitButtonEnable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testCases.ProductPageTest#backButtonEnable</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testCases.ProductPageTest#counterTextValidation</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">testCases.ProductPageTest#goToCartWithoutAddingProducts</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">testCases.ProductPageTest#isProductCostVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">testCases.ProductPageTest#isProductIconVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">testCases.ProductPageTest#isProductNameVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">testCases.ProductPageTest#isProductVisibleInCart</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">testCases.ProductPageTest#scrollAndAddProductIntoCart</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Raj, country=Austria, product=Converse All Star, genderFemale=Female, genderMale=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

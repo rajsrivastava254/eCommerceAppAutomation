@@ -1,0 +1,7 @@
+AppiumFramework\utils\AndroidActions.class
+AppiumFramework\utils\BaseCaseFrame.class
+AppiumFramework\pageObjects\android\FormPage.class
+AppiumFramework\pageObjects\android\CartProductPage.class
+AppiumFramework\utils\SearchHandler.class
+AppiumFramework\pageObjects\android\ProductCataloguePage.class
+AppiumFramework\utils\ContextSwitcher.class
