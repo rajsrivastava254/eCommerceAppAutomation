@@ -20,7 +20,6 @@ public class AndroidActions {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    // ✅ New wait method to be used in FormPage
     public WebElement waitForElement(WebElement element, int timeout) {
         WebDriverWait customWait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
         return customWait.until(ExpectedConditions.visibilityOf(element));
